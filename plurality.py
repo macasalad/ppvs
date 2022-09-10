@@ -2,7 +2,6 @@ import csv
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
-from math import ceil
 
 def plur_show_figure(plur_figs):
   "shows figure of election"
