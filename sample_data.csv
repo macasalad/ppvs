@@ -1,0 +1,23 @@
+Vote [1st Preference],Vote [2nd Preference],Vote [3rd Preference],Vote [4th Preference],Vote [5th Preference],Vote [6th Preference]
+Alice,Cindy,Dave,Bob,Eve,Abstain
+Alice,Bob,Cindy,Dave,Eve,Abstain
+Cindy,Bob,Dave,Abstain,Eve,Alice
+Alice,Bob,Eve,Dave,Cindy,Abstain
+Bob,Alice,Cindy,Eve,Dave,Abstain
+Dave,Bob,Alice,Cindy,Eve,Abstain
+Alice,Cindy,Abstain,Eve,Dave,Bob
+Abstain,Eve,Bob,Alice,Cindy,Dave
+Cindy,Bob,Dave,Alice,Eve,Abstain
+Dave,Alice,Eve,Bob,Cindy,Abstain
+Eve,Bob,Dave,Alice,Cindy,Abstain
+Cindy,Bob,Alice,Dave,Eve,Abstain
+Bob,Cindy,Alice,Dave,Eve,Abstain
+Dave,Cindy,Eve,Bob,Abstain,Alice
+Bob,Alice,Eve,Dave,Cindy,Abstain
+Bob,Cindy,Dave,Eve,Alice,Abstain
+Cindy,Bob,Dave,Eve,Alice,Abstain
+Abstain,Eve,Dave,Cindy,Bob,Alice
+Abstain,Dave,Cindy,Eve,Bob,Alice
+Bob,Cindy,Dave,Eve,Abstain,Alice
+Dave,Cindy,Eve,Bob,Abstain,Alice
+Dave,Abstain,Eve,Cindy,Bob,Alice
