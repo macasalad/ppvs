@@ -103,10 +103,10 @@ if __name__ == "__main__":
             # show figures
             
             if voting_system == "Preferential Voting System":
-                st.header("Election result")
+                st.header("Election rounds")
                 process_graphs.show_figures(figures, titles)
             elif voting_system == "Plurality Voting System":
-                st.header("Election rounds")
+                st.header("Election result")
                 plurality.plur_show_figure(plur_figs)
             error_code -= 1
             pbar.progress(80)
