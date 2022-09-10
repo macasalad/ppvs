@@ -134,5 +134,5 @@ if __name__ == "__main__":
             pbar.progress(100)
 
         except:
-            st.error("An error occured." + " Exit code:" + str(error_code))
+            st.error("An error occured." + " Exit code: " + str(error_code))
             bttn = False
