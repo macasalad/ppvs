@@ -50,5 +50,5 @@ def plurality(csvfilename):
   plur_figs.append(plur_fig)
 
   #print(log)
-  winner += " won the election with " + str(winning_votes) + "." 
+  winner += " won the election with " + str(winning_votes) + " votes." 
   return [winner, winning_votes, plur_figs, log]
