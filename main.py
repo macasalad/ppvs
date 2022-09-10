@@ -34,9 +34,9 @@ if __name__ == "__main__":
     # title
     col1, col2 = st.columns([1, 6])
     with col1:
-        st.image(progvarlogo, width=70)
+        st.image(progvarlogo, width=90)
     with col2:
-        st.image(comeleclogo, width=110)
+        st.image(comeleclogo, width=130)
     st.title("Plurality-Preferential Voting System Program")
     st.caption("© ASHS ProgVar in partnership with ASHS ComElec")
 
