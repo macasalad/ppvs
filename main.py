@@ -25,6 +25,7 @@ if __name__ == "__main__":
     
     # page configuration
     progvarlogo = Image.open("progvar_logo.png")
+    progvarlogo_wbg = Image.open("progvar_logo.png")
     comeleclogo = Image.open("comelec_logo.png")
     st.set_page_config(
         page_title="PPVS Program",
@@ -36,7 +37,7 @@ if __name__ == "__main__":
     with col1:
         st.image(progvarlogo, width=90)
     with col2:
-        st.image(comeleclogo, width=130)
+        st.image(comeleclogo, width=110)
     st.title("Plurality-Preferential Voting System Program")
     st.caption("© ASHS ProgVar in partnership with ASHS ComElec")
 
